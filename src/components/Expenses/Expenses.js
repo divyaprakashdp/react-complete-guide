@@ -1,5 +1,5 @@
 import ExpenseItems from "./ExpenseItems";
-import Card from './Card.js';
+import Card from '../Card/Card.js';
 import  "./Expenses.css"
 
 
