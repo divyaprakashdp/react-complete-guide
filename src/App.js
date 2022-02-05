@@ -6,9 +6,15 @@ function App() {
     { title: "Party", amount: 150.5, date: new Date(2022, 7, 26) },
     { title: "Toilet Paper", amount: 100.3, date: new Date(2022, 0, 29) },
   ];
+
+  const addExpenseHandler = (expense) =>{
+      console.log(expense);
+      
+  }
   return (
+    
     <div>
-      <NewExpense/>
+      <NewExpense onAddExpense={addExpenseHandler}/>
       <Expenses items={expenses} />
     </div>
   );
