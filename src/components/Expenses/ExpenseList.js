@@ -1,3 +1,4 @@
+import React from 'react';
 import "./ExpenseList.css";
 import ExpenseItems from "./ExpenseItems"
 
