@@ -1,13 +1,12 @@
 import React from "react";
+import AddUser from "./components/Users/AddUsers.js";
 
 const App = () => {
-    return (
-        <div>
-            <section id="user_form">
-                <button>Hello</button>
-            </section>
-        </div>
-    );
-}
+  return (
+    <div>
+      <AddUser />
+    </div>
+  );
+};
 
-export default App
+export default App;
